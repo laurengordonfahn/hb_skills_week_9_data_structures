@@ -1,0 +1,35 @@
+Part 1: Discussion Questions:
+
+Runtime
+1) To figure out weather a box of animal crackers contains an elephant means you POTENTILLY have to iterate over every cracker in the box. O(n) Linear 
+
+2) Fastest to Slowest Run time:
+O(1), O(log n), O(n), O(n log n), O(n^2), O(2^n),  and just in case you want to be very inefficent O(n!)
+
+Stacks and Queues
+1) Stacks or Queues
+    1) Loading a flatbed truck- last in first out= STACK
+    2) Capping assembly line bottles- first filled first capped = Queues
+    3) Calculating a math expression - always work left to right after simplified
+
+2) Queue examples: buying deli meat, waiting to go on the diving board
+
+3) Stack examples: Taking the first tortia from a plate, eating out of a jar of peanut butter the last butter in gets eatten first
+
+Linked Lists
+1) Nodes: apple node, berry node, cherry node boxes
+   Data: "Apple", "Berry", "Cherry" all strings text
+   Head: Is pointing to the apple node/box
+   Tail: doesn't look to be assigned here but if that attribute was added to this class it would be assigned to the cherry node since it has a next value of None. 
+
+2) Doubly linked lists have an attribute that knows what comes before it and what is after it while singly-linked lists only know what follows it.
+
+3)When you hve  tail attribute you know immediatly without haveing to itterate from the first node marked by the head attribute all the way until there is a node with a next of None. If you have a tail you just go right there without itteration through the whole list. 
+
+Trees
+Breadth First Search- uses the concept of queues-food, italian, indian, mexican, lasagna, pizza, tikka masala, saag, BURRITO!
+
+2)Depth First Search- uses the concept of stacks- food, Italian, Indian, Mexican, burrito, tacos, enchiladas, tikka masala, saag, lasagna, pizza, thin crust, CHICAGO-STYLE
+
+3)Binary trees have left and right attributes on there nodes.  Have a rule that organizes them to enable faster searching.  The other trees do not have this as an essential component. Binary trees degrade as you search if you look at a "node" of a long line of decendents so you know right off if the answer is in that line by looking at the "node" ascendent- so you keep cutting in half your work of searching. either right or left .
+
